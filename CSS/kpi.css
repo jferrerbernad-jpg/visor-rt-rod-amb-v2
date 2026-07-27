@@ -1,0 +1,13 @@
+#kpi-wrap {
+  margin: 12px 8px;
+  flex-shrink: 0;
+}
+
+#kpi-alerts {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+}

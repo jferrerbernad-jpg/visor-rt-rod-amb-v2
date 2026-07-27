@@ -1,0 +1,43 @@
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     DRAWER DE LA LLISTA D'ALERTES
+     Fragment HTML que s'inclou dins <div id="app"> a index.html.
+     JS: drawer-alertes.js  |  CSS: drawer-alertes.css
+     ═══════════════════════════════════════════════════════════════════════════ -->
+<div id="lista-drawer" class="lista-drawer hidden" aria-label="Llista d'alertes">
+
+  <!-- Capçalera amb títol, botó ordenació i botó tancar -->
+  <div class="lista-drawer-header">
+    <div class="lista-drawer-top">
+      <span id="lista-header" class="lista-drawer-title">Carregant…</span>
+      <div class="lista-drawer-controls">
+
+        <!-- Botó ordenació: alterna més recent / més antic -->
+        <button id="btn-sort-lista" class="btn-sort-lista"
+                aria-label="Ordenar per data de creació"
+                title="Ordenar per data de creació">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor"
+               stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="3,4 3,12"/>
+            <polyline points="7,6 7,12"/>
+            <polyline points="11,3 11,12"/>
+            <polyline points="3,2 13,0"/>
+          </svg>
+          <span id="btn-sort-label">Més recent</span>
+        </button>
+
+        <!-- Botó tancar el drawer -->
+        <button id="btn-close-lista" class="btn-close-lista" aria-label="Tancar llista">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round">
+            <polyline points="13,4 7,10 13,16"/>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Cos: llista d'ítems renderitzada per drawer-alertes.js -->
+  <div id="lista" class="lista-drawer-body"></div>
+
+</div>

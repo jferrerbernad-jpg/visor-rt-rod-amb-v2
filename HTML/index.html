@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visor Alertes RT · ATM</title>
+
+  <!-- Llibreries externes -->
+  <link href="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/@maplibre/maplibre-gl-geocoder/dist/maplibre-gl-geocoder.css" rel="stylesheet"/>
+
+  <!-- Estils propis -->
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/drawer-alertes.css" />
+  <link rel="stylesheet" href="../css/banner.css" />
+  <link rel="stylesheet" href="../css/geocoder.css" />
+  <link rel="stylesheet" href="../css/kpi.css" />
+
+  <!-- Scripts: ordre important (i18n primer, drawer abans de mapa) -->
+  <script src="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.js"></script>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/geocoder.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="../js/selector-idioma.js" defer></script>
+  <script src="../js/drawer-alertes.js" defer></script>
+  <script src="../js/banner.js" defer></script>
+  <script src="../js/mapa.js" defer></script>
+  <script src="../js/kpi.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════════════════════ -->
+  <header>
+    <div class="header-inner">
+
+      <!-- Logos esquerra -->
+      <div class="header-logos">
+        <img src="../icons/atm_blanc.png" alt="ATM" />
+        <img src="../icons/cgim_logo.png" alt="CGIM" />
+        <img src="../icons/tmobilitat-icon.png" alt="T-Mobilitat" />
+      </div>
+
+      <!-- Títol centre -->
+      <div class="header-title">
+        <h1>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            style="vertical-align:-4px;margin-right:8px">
+          <path d="M7 2h10a2 2 0 0 1 2 2v10a4 4 0 0 1-4 4l2 3h-2l-2-3h-2l-2 3H7l2-3a4 4 0 0 1-4-4V4a2 2 0 0 1 2-2z"
+                fill="white"/>
+          <circle cx="9" cy="13" r="1" fill="#00776F"/>
+          <circle cx="15" cy="13" r="1" fill="#00776F"/>
+          <rect x="8" y="5" width="8" height="4" rx="1" fill="#00776F"/>
+        </svg>
+        Visor Alertes en Temps Real
+      </h1>
+        <p>Rodalies de Catalunya · AMB</p>
+      </div>
+
+      <!-- Estat + selector d'idioma dreta -->
+      <div class="header-status">
+        <div class="header-status-main">
+          <span id="header-last-update">
+            <span class="label">Última actualització</span>
+            <span class="value">--/--/---- --:--:--</span>
+          </span>
+          <span id="header-realtime-status" class="header-realtime offline">Sense realtime</span>
+        </div>
+        <!-- Els botons d'idioma (CA / ES / EN) els injecta selector-idioma.js -->
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════
+       APP
+       ═══════════════════════════════════════════════════════ -->
+  <div id="app">
+
+    <!-- ── Sidebar: filtres ─────────────────────────────── -->
+    <aside id="sidebar">
+
+      <!-- Botó per obrir el drawer de la llista -->
+      <button id="btn-open-lista" aria-label="Veure llista d'alertes" title="Veure llista d'alertes">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="5"  x2="17" y2="5"/>
+          <line x1="3" y1="10" x2="17" y2="10"/>
+          <line x1="3" y1="15" x2="17" y2="15"/>
+        </svg>
+        <span class="lista-button-text">Llista alertes</span>
+        <span id="btn-lista-badge" class="lista-badge">0</span>
+        <svg class="arrow-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="7,4 13,10 7,16"/>
+        </svg>
+      </button>
+
+      <!-- Panell de filtres (omplert per mapa.js) -->
+      <div id="filtros-panel"></div>
+      <div id="lastUpdate"></div>
+            <div id="kpi-wrap">
+        <div id="kpi-alerts"></div>
+      </div>
+    </aside>
+
+    <!-- ── Drawer: llista d'alertes ─────────────────────── -->
+    <!-- Carregat dinàmicament per js/drawer-alertes.js
+         des de html/drawer-alertes.html                    -->
+
+
+    <!-- ── Drawer: llista d'alertes ─────────────────────── -->
+    <!-- Fragment definit a html/drawer-alertes.html
+         Gestionat per js/drawer-alertes.js               -->
+    <div id="lista-drawer" class="lista-drawer hidden" aria-label="Llista d'alertes">
+      <div class="lista-drawer-header">
+        <div class="lista-drawer-top">
+          <span id="lista-header" class="lista-drawer-title">Carregant…</span>
+          <div class="lista-drawer-controls">
+            <button id="btn-sort-lista" class="btn-sort-lista"
+                    aria-label="Ordenar per data de creació"
+                    title="Ordenar per data de creació">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor"
+                   stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="3,4 3,12"/>
+                <polyline points="7,6 7,12"/>
+                <polyline points="11,3 11,12"/>
+                <polyline points="3,2 13,0"/>
+              </svg>
+              <span id="btn-sort-label">Més recent</span>
+            </button>
+            <button id="btn-close-lista" class="btn-close-lista" aria-label="Tancar llista">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round">
+                <polyline points="13,4 7,10 13,16"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="lista" class="lista-drawer-body"></div>
+    </div>
+
+    <!-- ── Mapa ──────────────────────────────────────────── -->
+    <div id="map-wrap">
+      <div id="map"></div>
+      <div id="info">
+        <div id="info-nombre"></div>
+      </div>
+
+
+      <!-- Panell de detall d'una alerta -->
+      <!-- Fragment definit a html/detall-alerta.html
+           Gestionat per js/mapa.js                    -->
+      <section id="detail-panel" class="detail-panel hidden">
+        <div class="detail-panel-header">
+          <div class="detail-header-titles">
+            <div id="detail-title">—</div>
+          </div>
+          <div class="detail-header-actions">
+            <button type="button" id="detail-close" class="detail-close" aria-label="Tancar">×</button>
+          </div>
+        </div>
+        <div class="detail-panel-body">
+          <div class="popup-row">
+            <strong id="lbl-effect"></strong>
+            <span id="detail-efecto">—</span>
+            <div id="detail-effect-summary" class="detail-effect-summary"></div>
+          </div>
+          <div class="popup-row" id="detail-cause-row" style="display:none">
+            <strong id="lbl-cause"></strong>
+            <span id="detail-causa">—</span>
+          </div>
+          <div class="popup-row">
+            <strong id="lbl-operator"></strong>
+            <span id="detail-operador">—</span>
+          </div>
+          <div class="popup-row">
+            <strong id="lbl-period"></strong>
+            <span id="detail-publish-time">—</span>
+          </div>
+          <div class="popup-row">
+            <strong id="lbl-routes"></strong><br>
+            <span id="detail-routes" class="detail-values"></span>
+          </div>
+          <div class="popup-row">
+            <strong id="lbl-stops"></strong><br>
+            <span id="detail-stops" class="detail-values"></span>
+          </div>
+          <div class="popup-row">
+            <strong id="lbl-desc"></strong><br>
+            <span id="detail-description"></span>
+          </div>
+          <div class="popup-row">
+            <strong id="lbl-more"></strong>
+            <span style="margin-left:6px;">
+              <a id="detail-more-info" target="_blank" rel="noopener"></a>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner (capes / mapa base / llegenda) -->
+      <div id="map-banner" class="map-banner">
+        <div class="banner-inner">
+
+          <button type="button" class="banner-btn" id="banner-btn-layers"
+                  title="Control de capes" aria-expanded="false">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round">
+              <rect x="2" y="13" width="16" height="3" rx="1"/>
+              <rect x="2" y="8.5" width="16" height="3" rx="1"/>
+              <rect x="2" y="4"   width="16" height="3" rx="1"/>
+            </svg>
+            <span>Capes</span>
+          </button>
+
+          <div class="banner-divider"></div>
+
+          <button type="button" class="banner-btn" id="banner-btn-basemap"
+                  title="Mapa base" aria-expanded="false">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="1,7 10,2 19,7 10,12"/>
+              <polyline points="1,12 10,17 19,12"/>
+              <line x1="1" y1="7" x2="1" y2="12"/>
+              <line x1="19" y1="7" x2="19" y2="12"/>
+            </svg>
+            <span>Mapa</span>
+          </button>
+
+          <div class="banner-divider"></div>
+
+          <button type="button" class="banner-btn" id="banner-btn-legend"
+                  title="Llegenda" aria-expanded="false">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor"
+                 stroke-width="1.6" stroke-linecap="round">
+              <circle cx="5" cy="6"  r="2" fill="currentColor" stroke="none"/>
+              <line x1="9" y1="6"  x2="18" y2="6"/>
+              <circle cx="5" cy="11" r="2" fill="currentColor" stroke="none"/>
+              <line x1="9" y1="11" x2="18" y2="11"/>
+              <circle cx="5" cy="16" r="2" fill="currentColor" stroke="none"/>
+              <line x1="9" y1="16" x2="18" y2="16"/>
+            </svg>
+            <span>Llegenda</span>
+          </button>
+
+        </div>
+
+        <!-- Panel: capes -->
+        <div class="banner-panel" id="banner-panel-layers">
+          <div class="banner-panel-title">Alertes</div>
+          <label class="banner-radio">
+            <input type="radio" name="layer-mode" value="cluster" checked>
+            <span class="radio-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4">
+                <circle cx="8" cy="8" r="5"/>
+                <text x="8" y="11.5" text-anchor="middle" font-size="7"
+                      fill="currentColor" stroke="none">N</text>
+              </svg>
+            </span>
+            <span>Agrupades per clústers</span>
+          </label>
+          <label class="banner-radio">
+            <input type="radio" name="layer-mode" value="effect">
+            <span class="radio-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4">
+                <circle cx="4"  cy="8"  r="2.5" fill="#dc2626" stroke="none"/>
+                <circle cx="10" cy="5"  r="2.5" fill="#2563eb" stroke="none"/>
+                <circle cx="12" cy="11" r="2.5" fill="#16a34a" stroke="none"/>
+              </svg>
+            </span>
+            <span>Agrupades per efecte</span>
+          </label>
+          <label class="banner-radio">
+            <input type="radio" name="layer-mode" value="punts-critics">
+            <span class="radio-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4">
+                <circle cx="8" cy="8" r="5"/>
+                <path d="M5 8 Q8 4 11 8 Q8 12 5 8" fill="#2563eb" stroke="none"/>
+              </svg>
+            </span>
+            <span>Punts crítics</span>
+          </label>
+        </div>
+
+        <!-- Panel: mapa base -->
+        <div class="banner-panel" id="banner-panel-basemap">
+          <div class="banner-panel-title">Mapa base</div>
+          <label class="banner-radio">
+            <input type="radio" name="basemap-mode" value="custom">
+            <span class="radio-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4">
+                <circle cx="8" cy="8" r="5" fill="#dbeafe"/>
+                <path d="M5 8 Q8 4 11 8 Q8 12 5 8" fill="#2563eb" stroke="none"/>
+              </svg>
+            </span>
+            <span>Dark</span>
+          </label>
+          <label class="banner-radio">
+            <input type="radio" name="basemap-mode" value="Positron" checked>
+            <span class="radio-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4">
+                <rect x="2" y="2" width="12" height="12" rx="2" fill="#f0fdf4"/>
+                <path d="M2 9 Q6 6 10 9 Q13 11 14 9" stroke="#16a34a" fill="none"/>
+              </svg>
+            </span>
+            <span>Light</span>
+          </label>
+          <label class="banner-radio">
+            <input type="radio" name="basemap-mode" value="ortofotomapa">
+            <span class="radio-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4">
+                <rect x="2" y="2" width="12" height="12" rx="2" fill="#fff7ed"/>
+                <path d="M4 10 L7 5 L10 8 L12 6" stroke="#ea580c" fill="none"/>
+              </svg>
+            </span>
+            <span>Ortofoto</span>
+          </label>
+        </div>
+
+        <!-- Panel: llegenda -->
+        <div class="banner-panel" id="banner-panel-legend">
+          <div class="banner-panel-title">Efectes</div>
+          <div class="legend-items"></div>
+        </div>
+
+      </div><!-- /map-banner -->
+    </div><!-- /map-wrap -->
+
+  </div><!-- /app -->
+
+  <!-- Botó menú mòbil -->
+  <button id="btn-menu" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+  <div id="overlay"></div>
+
+</body>
+</html>

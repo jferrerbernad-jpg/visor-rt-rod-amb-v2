@@ -1,0 +1,31 @@
+<div class="detail-panel-header">
+      <div>
+        <div id="detail-title" class="popup-nombre">${t('noName')}</div>
+        <div id="detail-subtitle">—</div>
+      </div>
+      <div class="detail-header-actions">
+        <div class="detail-language-selector">
+          <label for="detail-language-select" class="detail-language-label">${t('language')}:</label>
+          <select id="detail-language-select" class="detail-language-select">
+            <option value="ca">Català</option>
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+        <button type="button" id="detail-close" class="detail-close" aria-label="Tancar">×</button>
+      </div>
+    </div>
+    <div class="detail-panel-body">
+      <div class="popup-row"><strong id="lbl-effect">${t('effect')}:</strong> <span id="detail-efecto">—</span></div>
+      <div class="popup-row" id="detail-cause-row" style="display:none">
+        <strong id="lbl-cause">${t('cause')}:</strong> <span id="detail-causa">—</span>
+      </div>
+      <div class="popup-row"><strong id="lbl-operator">${t('operator')}:</strong> <span id="detail-operador">—</span></div>
+      <div class="popup-row"><strong id="lbl-period">${t('activePeriod')}:</strong> <span id="detail-publish-time">—</span></div>
+      <div class="popup-row"><strong id="lbl-routes">${t('routes')}:</strong><br><span id="detail-routes" class="detail-values"></span></div>
+      <div class="popup-row"><strong id="lbl-stops">${t('affectedStops')}:</strong><br><span id="detail-stops" class="detail-values"></span></div>
+      <div class="popup-row"><strong id="lbl-desc">${t('description')}:</strong><br><span id="detail-description"></span></div>
+      <div class="popup-row"><strong id="lbl-more">${t('moreInfo')}:</strong>
+        <span style="margin-left:6px;"><a id="detail-more-info" target="_blank"></a></span>
+      </div>
+    </div>

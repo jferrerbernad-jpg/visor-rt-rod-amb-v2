@@ -1,0 +1,2971 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "punts_critics",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.180271, 41.391646 ]
+			},
+			"properties" : {
+				"stop_id" : "78804",
+				"stop_name" : "Arc de Triomf",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78804",
+						"stop_name" : "Arc de Triomf",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_78804",
+						"stop_name" : "Arc de Triomf",
+						"route_short_name" : "R1"
+					},
+					{
+						"stop_id" : "ROD_78804",
+						"stop_name" : "Arc de Triomf",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78804",
+						"stop_name" : "Arc de Triomf",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_78804",
+						"stop_name" : "Arc de Triomf",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 10,
+				"nivell_criticitat" : "Alt"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.168856, 41.38737 ]
+			},
+			"properties" : {
+				"stop_id" : "78805",
+				"stop_name" : "Plaça de Catalunya",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78805",
+						"stop_name" : "Plaça de Catalunya",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_78805",
+						"stop_name" : "Plaça de Catalunya",
+						"route_short_name" : "R1"
+					},
+					{
+						"stop_id" : "ROD_78805",
+						"stop_name" : "Plaça de Catalunya",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78805",
+						"stop_name" : "Plaça de Catalunya",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_78805",
+						"stop_name" : "Plaça de Catalunya",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 10,
+				"nivell_criticitat" : "Alt"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.140624, 41.37952 ]
+			},
+			"properties" : {
+				"stop_id" : "71801",
+				"stop_name" : "Barcelona Sants",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "R2S"
+					},
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "R1"
+					},
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_71801",
+						"stop_name" : "Barcelona Sants",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 10,
+				"nivell_criticitat" : "Alt"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.100711, 41.364075 ]
+			},
+			"properties" : {
+				"stop_id" : "72305",
+				"stop_name" : "L'Hospitalet de Llobregat",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72305",
+						"stop_name" : "L'Hospitalet de Llobregat",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_72305",
+						"stop_name" : "L'Hospitalet de Llobregat",
+						"route_short_name" : "R1"
+					},
+					{
+						"stop_id" : "ROD_72305",
+						"stop_name" : "L'Hospitalet de Llobregat",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_72305",
+						"stop_name" : "L'Hospitalet de Llobregat",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_72305",
+						"stop_name" : "L'Hospitalet de Llobregat",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 9,
+				"nivell_criticitat" : "Alt"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.187148, 41.409188 ]
+			},
+			"properties" : {
+				"stop_id" : "79009",
+				"stop_name" : "El Clot",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79009",
+						"stop_name" : "El Clot",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79009",
+						"stop_name" : "El Clot",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79009",
+						"stop_name" : "El Clot",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_79009",
+						"stop_name" : "El Clot",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 9,
+				"nivell_criticitat" : "Alt"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.164896, 41.392281 ]
+			},
+			"properties" : {
+				"stop_id" : "71802",
+				"stop_name" : "Passeig de Gràcia",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71802",
+						"stop_name" : "Passeig de Gràcia",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71802",
+						"stop_name" : "Passeig de Gràcia",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_71802",
+						"stop_name" : "Passeig de Gràcia",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 8,
+				"nivell_criticitat" : "Alt"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.291087, 41.599705 ]
+			},
+			"properties" : {
+				"stop_id" : "79100",
+				"stop_name" : "Granollers Centre",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79100",
+						"stop_name" : "Granollers Centre",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79100",
+						"stop_name" : "Granollers Centre",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_79100",
+						"stop_name" : "Granollers Centre",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 7,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.183104, 41.430851 ]
+			},
+			"properties" : {
+				"stop_id" : "78802",
+				"stop_name" : "Fabra i Puig",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78802",
+						"stop_name" : "Fabra i Puig",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78802",
+						"stop_name" : "Fabra i Puig",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_78802",
+						"stop_name" : "Fabra i Puig",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 7,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.187115, 41.421958 ]
+			},
+			"properties" : {
+				"stop_id" : "78806",
+				"stop_name" : "La Sagrera Meridiana",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78806",
+						"stop_name" : "La Sagrera Meridiana",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78806",
+						"stop_name" : "La Sagrera Meridiana",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_78806",
+						"stop_name" : "La Sagrera Meridiana",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 7,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.673572, 41.773056 ]
+			},
+			"properties" : {
+				"stop_id" : "79200",
+				"stop_name" : "Maçanet - Massanes",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79200",
+						"stop_name" : "Maçanet - Massanes",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79200",
+						"stop_name" : "Maçanet - Massanes",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79200",
+						"stop_name" : "Maçanet - Massanes",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_79200",
+						"stop_name" : "Maçanet - Massanes",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 7,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.354698, 41.48764 ]
+			},
+			"properties" : {
+				"stop_id" : "79409",
+				"stop_name" : "Premià de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79409",
+						"stop_name" : "Premià de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79409",
+						"stop_name" : "Premià de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.8097207, 41.2390638 ]
+			},
+			"properties" : {
+				"stop_id" : "71701",
+				"stop_name" : "Sitges",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71701",
+						"stop_name" : "Sitges",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71701",
+						"stop_name" : "Sitges",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.248893, 41.445921 ]
+			},
+			"properties" : {
+				"stop_id" : "79404",
+				"stop_name" : "Badalona",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79404",
+						"stop_name" : "Badalona",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79404",
+						"stop_name" : "Badalona",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.1156653, 41.5463908 ]
+			},
+			"properties" : {
+				"stop_id" : "78704",
+				"stop_name" : "Sabadell Centre",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78704",
+						"stop_name" : "Sabadell Centre",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.047834, 41.382935 ]
+			},
+			"properties" : {
+				"stop_id" : "72301",
+				"stop_name" : "Sant Feliu de Llobregat",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72301",
+						"stop_name" : "Sant Feliu de Llobregat",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_72301",
+						"stop_name" : "Sant Feliu de Llobregat",
+						"route_short_name" : "R7"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.0142891, 41.5697963 ]
+			},
+			"properties" : {
+				"stop_id" : "78700",
+				"stop_name" : "Terrassa Estació del Nord",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78700",
+						"stop_name" : "Terrassa Estació del Nord",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.14743, 41.492627 ]
+			},
+			"properties" : {
+				"stop_id" : "78706",
+				"stop_name" : "Cerdanyola del Vallès",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78706",
+						"stop_name" : "Cerdanyola del Vallès",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78706",
+						"stop_name" : "Cerdanyola del Vallès",
+						"route_short_name" : "R7"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.979093, 41.278755 ]
+			},
+			"properties" : {
+				"stop_id" : "71705",
+				"stop_name" : "Castelldefels",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71705",
+						"stop_name" : "Castelldefels",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71705",
+						"stop_name" : "Castelldefels",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.730722, 41.220389 ]
+			},
+			"properties" : {
+				"stop_id" : "71700",
+				"stop_name" : "Vilanova i la Geltrú",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71700",
+						"stop_name" : "Vilanova i la Geltrú",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71700",
+						"stop_name" : "Vilanova i la Geltrú",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.4455352, 41.5333991 ]
+			},
+			"properties" : {
+				"stop_id" : "79500",
+				"stop_name" : "Mataró",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79500",
+						"stop_name" : "Mataró",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79500",
+						"stop_name" : "Mataró",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.2458008, 41.5498745 ]
+			},
+			"properties" : {
+				"stop_id" : "79007",
+				"stop_name" : "Montmeló",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79007",
+						"stop_name" : "Montmeló",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79007",
+						"stop_name" : "Montmeló",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_79007",
+						"stop_name" : "Montmeló",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.089908, 41.330626 ]
+			},
+			"properties" : {
+				"stop_id" : "71707",
+				"stop_name" : "El Prat de Llobregat",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71707",
+						"stop_name" : "El Prat de Llobregat",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71707",
+						"stop_name" : "El Prat de Llobregat",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_71707",
+						"stop_name" : "El Prat de Llobregat",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.1154943, 41.3550465 ]
+			},
+			"properties" : {
+				"stop_id" : "71708",
+				"stop_name" : "Bellvitge | Gornal",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71708",
+						"stop_name" : "Bellvitge | Gornal",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71708",
+						"stop_name" : "Bellvitge | Gornal",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_71708",
+						"stop_name" : "Bellvitge | Gornal",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.1803793, 41.4616188 ]
+			},
+			"properties" : {
+				"stop_id" : "78801",
+				"stop_name" : "Torre del Baró | Vallbona",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78801",
+						"stop_name" : "Torre del Baró | Vallbona",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78801",
+						"stop_name" : "Torre del Baró | Vallbona",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_78801",
+						"stop_name" : "Torre del Baró | Vallbona",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.21757, 41.533579 ]
+			},
+			"properties" : {
+				"stop_id" : "79006",
+				"stop_name" : "Mollet - Sant Fost",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79006",
+						"stop_name" : "Mollet - Sant Fost",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79006",
+						"stop_name" : "Mollet - Sant Fost",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_79006",
+						"stop_name" : "Mollet - Sant Fost",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 6,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.310702, 41.477136 ]
+			},
+			"properties" : {
+				"stop_id" : "79407",
+				"stop_name" : "El Masnou",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79407",
+						"stop_name" : "El Masnou",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79407",
+						"stop_name" : "El Masnou",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.185351, 41.483951 ]
+			},
+			"properties" : {
+				"stop_id" : "78708",
+				"stop_name" : "Montcada i Reixac Manresa",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78708",
+						"stop_name" : "Montcada i Reixac Manresa",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78708",
+						"stop_name" : "Montcada i Reixac Manresa",
+						"route_short_name" : "R7"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.105395, 41.528716 ]
+			},
+			"properties" : {
+				"stop_id" : "78703",
+				"stop_name" : "Sabadell Sud",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78703",
+						"stop_name" : "Sabadell Sud",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.319648, 41.479051 ]
+			},
+			"properties" : {
+				"stop_id" : "79408",
+				"stop_name" : "Ocata",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79408",
+						"stop_name" : "Ocata",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79408",
+						"stop_name" : "Ocata",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.115482, 41.497107 ]
+			},
+			"properties" : {
+				"stop_id" : "72503",
+				"stop_name" : "Cerdanyola Universitat",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72503",
+						"stop_name" : "Cerdanyola Universitat",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_72503",
+						"stop_name" : "Cerdanyola Universitat",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.060147, 41.36854 ]
+			},
+			"properties" : {
+				"stop_id" : "72302",
+				"stop_name" : "Sant Joan Despí",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72302",
+						"stop_name" : "Sant Joan Despí",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_72302",
+						"stop_name" : "Sant Joan Despí",
+						"route_short_name" : "R7"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.665716, 41.614589 ]
+			},
+			"properties" : {
+				"stop_id" : "79603",
+				"stop_name" : "Calella",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79603",
+						"stop_name" : "Calella",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79603",
+						"stop_name" : "Calella",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.118535, 41.513615 ]
+			},
+			"properties" : {
+				"stop_id" : "78705",
+				"stop_name" : "Barberà del Vallès",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78705",
+						"stop_name" : "Barberà del Vallès",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.389473, 41.500454 ]
+			},
+			"properties" : {
+				"stop_id" : "79410",
+				"stop_name" : "Vilassar de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79410",
+						"stop_name" : "Vilassar de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79410",
+						"stop_name" : "Vilassar de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.703112, 41.344811 ]
+			},
+			"properties" : {
+				"stop_id" : "72204",
+				"stop_name" : "Vilafranca del Penedès",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72204",
+						"stop_name" : "Vilafranca del Penedès",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.02057, 41.409844 ]
+			},
+			"properties" : {
+				"stop_id" : "72300",
+				"stop_name" : "Molins de Rei",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72300",
+						"stop_name" : "Molins de Rei",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_72300",
+						"stop_name" : "Molins de Rei",
+						"route_short_name" : "R7"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.549343, 41.5777 ]
+			},
+			"properties" : {
+				"stop_id" : "79600",
+				"stop_name" : "Arenys de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79600",
+						"stop_name" : "Arenys de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79600",
+						"stop_name" : "Arenys de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.0277, 41.309407 ]
+			},
+			"properties" : {
+				"stop_id" : "71709",
+				"stop_name" : "Viladecans",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71709",
+						"stop_name" : "Viladecans",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71709",
+						"stop_name" : "Viladecans",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.926459, 41.478787 ]
+			},
+			"properties" : {
+				"stop_id" : "72209",
+				"stop_name" : "Martorell Centre",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72209",
+						"stop_name" : "Martorell Centre",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_72209",
+						"stop_name" : "Martorell Centre",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.193097, 41.436083 ]
+			},
+			"properties" : {
+				"stop_id" : "79004",
+				"stop_name" : "Sant Andreu",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79004",
+						"stop_name" : "Sant Andreu",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79004",
+						"stop_name" : "Sant Andreu",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.010444, 41.303417 ]
+			},
+			"properties" : {
+				"stop_id" : "71706",
+				"stop_name" : "Gavà",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71706",
+						"stop_name" : "Gavà",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71706",
+						"stop_name" : "Gavà",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.070566, 41.357469 ]
+			},
+			"properties" : {
+				"stop_id" : "72303",
+				"stop_name" : "Cornellà",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72303",
+						"stop_name" : "Cornellà",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_72303",
+						"stop_name" : "Cornellà",
+						"route_short_name" : "R7"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.230761, 41.424665 ]
+			},
+			"properties" : {
+				"stop_id" : "79403",
+				"stop_name" : "Sant Adrià de Besòs",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79403",
+						"stop_name" : "Sant Adrià de Besòs",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79403",
+						"stop_name" : "Sant Adrià de Besòs",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.09591, 41.562401 ]
+			},
+			"properties" : {
+				"stop_id" : "78709",
+				"stop_name" : "Sabadell Nord",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78709",
+						"stop_name" : "Sabadell Nord",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.0738758, 41.3044167 ]
+			},
+			"properties" : {
+				"stop_id" : "72400",
+				"stop_name" : "Aeroport",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72400",
+						"stop_name" : "Aeroport",
+						"route_short_name" : "R2N"
+					},
+					{
+						"stop_id" : "ROD_72400",
+						"stop_name" : "Aeroport",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.356203, 41.636719 ]
+			},
+			"properties" : {
+				"stop_id" : "79101",
+				"stop_name" : "Cardedeu",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79101",
+						"stop_name" : "Cardedeu",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79101",
+						"stop_name" : "Cardedeu",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.180012, 41.4697914 ]
+			},
+			"properties" : {
+				"stop_id" : "78800",
+				"stop_name" : "Montcada Bifurcació",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78800",
+						"stop_name" : "Montcada Bifurcació",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78800",
+						"stop_name" : "Montcada Bifurcació",
+						"route_short_name" : "R7"
+					},
+					{
+						"stop_id" : "ROD_78800",
+						"stop_name" : "Montcada Bifurcació",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.524797, 41.186167 ]
+			},
+			"properties" : {
+				"stop_id" : "71600",
+				"stop_name" : "Sant Vicenç de Calders",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71600",
+						"stop_name" : "Sant Vicenç de Calders",
+						"route_short_name" : "R2S"
+					},
+					{
+						"stop_id" : "ROD_71600",
+						"stop_name" : "Sant Vicenç de Calders",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71600",
+						"stop_name" : "Sant Vicenç de Calders",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 5,
+				"nivell_criticitat" : "Moderat"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.002647, 41.435393 ]
+			},
+			"properties" : {
+				"stop_id" : "72211",
+				"stop_name" : "El Papiol",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72211",
+						"stop_name" : "El Papiol",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.957181, 41.266842 ]
+			},
+			"properties" : {
+				"stop_id" : "71704",
+				"stop_name" : "Platja de Castelldefels",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71704",
+						"stop_name" : "Platja de Castelldefels",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71704",
+						"stop_name" : "Platja de Castelldefels",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.181941, 41.496841 ]
+			},
+			"properties" : {
+				"stop_id" : "77002",
+				"stop_name" : "Montcada Ripollet",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77002",
+						"stop_name" : "Montcada Ripollet",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.453814, 41.671557 ]
+			},
+			"properties" : {
+				"stop_id" : "79103",
+				"stop_name" : "Palautordera",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79103",
+						"stop_name" : "Palautordera",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79103",
+						"stop_name" : "Palautordera",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.624584, 41.601811 ]
+			},
+			"properties" : {
+				"stop_id" : "79602",
+				"stop_name" : "Sant Pol de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79602",
+						"stop_name" : "Sant Pol de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79602",
+						"stop_name" : "Sant Pol de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.525984, 41.56864 ]
+			},
+			"properties" : {
+				"stop_id" : "79502",
+				"stop_name" : "Caldes d'Estrac",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79502",
+						"stop_name" : "Caldes d'Estrac",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79502",
+						"stop_name" : "Caldes d'Estrac",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.167067, 41.481154 ]
+			},
+			"properties" : {
+				"stop_id" : "78707",
+				"stop_name" : "Montcada i Reixac Santa Maria",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78707",
+						"stop_name" : "Montcada i Reixac Santa Maria",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_78707",
+						"stop_name" : "Montcada i Reixac Santa Maria",
+						"route_short_name" : "R7"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.865498, 41.448531 ]
+			},
+			"properties" : {
+				"stop_id" : "72208",
+				"stop_name" : "Gelida",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72208",
+						"stop_name" : "Gelida",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.606431, 41.192562 ]
+			},
+			"properties" : {
+				"stop_id" : "71602",
+				"stop_name" : "Segur de Calafell",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71602",
+						"stop_name" : "Segur de Calafell",
+						"route_short_name" : "R2S"
+					},
+					{
+						"stop_id" : "ROD_71602",
+						"stop_name" : "Segur de Calafell",
+						"route_short_name" : "R2"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.631876, 41.195036 ]
+			},
+			"properties" : {
+				"stop_id" : "71603",
+				"stop_name" : "Cunit",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71603",
+						"stop_name" : "Cunit",
+						"route_short_name" : "R2S"
+					},
+					{
+						"stop_id" : "ROD_71603",
+						"stop_name" : "Cunit",
+						"route_short_name" : "R2"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.288748, 41.684469 ]
+			},
+			"properties" : {
+				"stop_id" : "77102",
+				"stop_name" : "La Garriga",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77102",
+						"stop_name" : "La Garriga",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.498462, 41.555722 ]
+			},
+			"properties" : {
+				"stop_id" : "79501",
+				"stop_name" : "Sant Andreu de Llavaneres",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79501",
+						"stop_name" : "Sant Andreu de Llavaneres",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79501",
+						"stop_name" : "Sant Andreu de Llavaneres",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.794639, 41.420588 ]
+			},
+			"properties" : {
+				"stop_id" : "72207",
+				"stop_name" : "Sant Sadurní d'Anoia",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72207",
+						"stop_name" : "Sant Sadurní d'Anoia",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.741529, 41.641776 ]
+			},
+			"properties" : {
+				"stop_id" : "79605",
+				"stop_name" : "Malgrat de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79605",
+						"stop_name" : "Malgrat de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79605",
+						"stop_name" : "Malgrat de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.537743, 41.221184 ]
+			},
+			"properties" : {
+				"stop_id" : "72201",
+				"stop_name" : "El Vendrell",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72201",
+						"stop_name" : "El Vendrell",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.286755, 41.468822 ]
+			},
+			"properties" : {
+				"stop_id" : "79406",
+				"stop_name" : "Montgat Nord",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79406",
+						"stop_name" : "Montgat Nord",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79406",
+						"stop_name" : "Montgat Nord",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.225992, 41.556292 ]
+			},
+			"properties" : {
+				"stop_id" : "77005",
+				"stop_name" : "Parets del Vallès",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77005",
+						"stop_name" : "Parets del Vallès",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.9676144, 41.4734723 ]
+			},
+			"properties" : {
+				"stop_id" : "72210",
+				"stop_name" : "Castellbisbal",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72210",
+						"stop_name" : "Castellbisbal",
+						"route_short_name" : "R4"
+					},
+					{
+						"stop_id" : "ROD_72210",
+						"stop_name" : "Castellbisbal",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.693517, 41.622396 ]
+			},
+			"properties" : {
+				"stop_id" : "79604",
+				"stop_name" : "Pineda de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79604",
+						"stop_name" : "Pineda de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79604",
+						"stop_name" : "Pineda de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.574993, 41.189651 ]
+			},
+			"properties" : {
+				"stop_id" : "71601",
+				"stop_name" : "Calafell",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71601",
+						"stop_name" : "Calafell",
+						"route_short_name" : "R2S"
+					},
+					{
+						"stop_id" : "ROD_71601",
+						"stop_name" : "Calafell",
+						"route_short_name" : "R2"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.675957, 41.20434 ]
+			},
+			"properties" : {
+				"stop_id" : "71604",
+				"stop_name" : "Cubelles",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71604",
+						"stop_name" : "Cubelles",
+						"route_short_name" : "R2S"
+					},
+					{
+						"stop_id" : "ROD_71604",
+						"stop_name" : "Cubelles",
+						"route_short_name" : "R2"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.277008, 41.611416 ]
+			},
+			"properties" : {
+				"stop_id" : "77006",
+				"stop_name" : "Granollers - Canovelles",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77006",
+						"stop_name" : "Granollers - Canovelles",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.769265, 41.673451 ]
+			},
+			"properties" : {
+				"stop_id" : "79606",
+				"stop_name" : "Blanes",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79606",
+						"stop_name" : "Blanes",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79606",
+						"stop_name" : "Blanes",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.206189, 41.536597 ]
+			},
+			"properties" : {
+				"stop_id" : "77004",
+				"stop_name" : "Mollet Santa Rosa",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77004",
+						"stop_name" : "Mollet Santa Rosa",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.827185, 41.720393 ]
+			},
+			"properties" : {
+				"stop_id" : "78600",
+				"stop_name" : "Manresa",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78600",
+						"stop_name" : "Manresa",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.194315, 41.521686 ]
+			},
+			"properties" : {
+				"stop_id" : "77003",
+				"stop_name" : "Santa Perpètua de Mogoda la Florida",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77003",
+						"stop_name" : "Santa Perpètua de Mogoda la Florida",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.404551, 41.638096 ]
+			},
+			"properties" : {
+				"stop_id" : "79102",
+				"stop_name" : "Llinars del Vallès",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79102",
+						"stop_name" : "Llinars del Vallès",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79102",
+						"stop_name" : "Llinars del Vallès",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.248904, 41.931034 ]
+			},
+			"properties" : {
+				"stop_id" : "77109",
+				"stop_name" : "Vic",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77109",
+						"stop_name" : "Vic",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.490554, 41.685877 ]
+			},
+			"properties" : {
+				"stop_id" : "79104",
+				"stop_name" : "Sant Celoni",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79104",
+						"stop_name" : "Sant Celoni",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79104",
+						"stop_name" : "Sant Celoni",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.58121, 41.586716 ]
+			},
+			"properties" : {
+				"stop_id" : "79601",
+				"stop_name" : "Canet de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79601",
+						"stop_name" : "Canet de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79601",
+						"stop_name" : "Canet de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.199768, 41.510473 ]
+			},
+			"properties" : {
+				"stop_id" : "79011",
+				"stop_name" : "La Llagosta",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79011",
+						"stop_name" : "La Llagosta",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79011",
+						"stop_name" : "La Llagosta",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.862649, 41.668851 ]
+			},
+			"properties" : {
+				"stop_id" : "78604",
+				"stop_name" : "Sant Vicenç de Castellet",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78604",
+						"stop_name" : "Sant Vicenç de Castellet",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.401591, 41.506858 ]
+			},
+			"properties" : {
+				"stop_id" : "79412",
+				"stop_name" : "Cabrera de Mar - Vilassar de Mar",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79412",
+						"stop_name" : "Cabrera de Mar - Vilassar de Mar",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79412",
+						"stop_name" : "Cabrera de Mar - Vilassar de Mar",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.272098, 41.463019 ]
+			},
+			"properties" : {
+				"stop_id" : "79405",
+				"stop_name" : "Montgat",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79405",
+						"stop_name" : "Montgat",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79405",
+						"stop_name" : "Montgat",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.1880935, 41.484238 ]
+			},
+			"properties" : {
+				"stop_id" : "79005",
+				"stop_name" : "Montcada i Reixac",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79005",
+						"stop_name" : "Montcada i Reixac",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79005",
+						"stop_name" : "Montcada i Reixac",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.039406, 41.567515 ]
+			},
+			"properties" : {
+				"stop_id" : "78710",
+				"stop_name" : "Terrassa Est",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78710",
+						"stop_name" : "Terrassa Est",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.18519, 41.384535 ]
+			},
+			"properties" : {
+				"stop_id" : "79400",
+				"stop_name" : "Barcelona Estació de França",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79400",
+						"stop_name" : "Barcelona Estació de França",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.294434, 41.617129 ]
+			},
+			"properties" : {
+				"stop_id" : "79109",
+				"stop_name" : "Les Franqueses - Granollers Nord",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79109",
+						"stop_name" : "Les Franqueses - Granollers Nord",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79109",
+						"stop_name" : "Les Franqueses - Granollers Nord",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 4,
+				"nivell_criticitat" : "Baix"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.015269, 42.321018 ]
+			},
+			"properties" : {
+				"stop_id" : "77305",
+				"stop_name" : "Toses",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77305",
+						"stop_name" : "Toses",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.896769, 42.376863 ]
+			},
+			"properties" : {
+				"stop_id" : "77307",
+				"stop_name" : "Urtx - Alp",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77307",
+						"stop_name" : "Urtx - Alp",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.203891, 42.130144 ]
+			},
+			"properties" : {
+				"stop_id" : "77114",
+				"stop_name" : "La Farga de Bebié",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77114",
+						"stop_name" : "La Farga de Bebié",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.24278, 42.0644 ]
+			},
+			"properties" : {
+				"stop_id" : "77112",
+				"stop_name" : "Borgonyà",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77112",
+						"stop_name" : "Borgonyà",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.955983, 42.344525 ]
+			},
+			"properties" : {
+				"stop_id" : "77306",
+				"stop_name" : "La Molina",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77306",
+						"stop_name" : "La Molina",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.165672, 42.221805 ]
+			},
+			"properties" : {
+				"stop_id" : "77301",
+				"stop_name" : "Campdevànol",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77301",
+						"stop_name" : "Campdevànol",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.165359, 42.298685 ]
+			},
+			"properties" : {
+				"stop_id" : "77303",
+				"stop_name" : "Ribes de Freser",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77303",
+						"stop_name" : "Ribes de Freser",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.9044881, 42.4590596 ]
+			},
+			"properties" : {
+				"stop_id" : "77310",
+				"stop_name" : "La Tor de Querol - Enveig",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77310",
+						"stop_name" : "La Tor de Querol - Enveig",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.568904, 41.7263399 ]
+			},
+			"properties" : {
+				"stop_id" : "79106",
+				"stop_name" : "Riells i Viabrea - Breda",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79106",
+						"stop_name" : "Riells i Viabrea - Breda",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79106",
+						"stop_name" : "Riells i Viabrea - Breda",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.538617, 41.718171 ]
+			},
+			"properties" : {
+				"stop_id" : "79105",
+				"stop_name" : "Gualba",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79105",
+						"stop_name" : "Gualba",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79105",
+						"stop_name" : "Gualba",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.099769, 42.314338 ]
+			},
+			"properties" : {
+				"stop_id" : "77304",
+				"stop_name" : "Planoles",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77304",
+						"stop_name" : "Planoles",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.631483, 41.747722 ]
+			},
+			"properties" : {
+				"stop_id" : "79107",
+				"stop_name" : "Hostalric",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79107",
+						"stop_name" : "Hostalric",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_79107",
+						"stop_name" : "Hostalric",
+						"route_short_name" : "R2N"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.217712, 42.104825 ]
+			},
+			"properties" : {
+				"stop_id" : "77113",
+				"stop_name" : "Sant Quirze de Besora",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77113",
+						"stop_name" : "Sant Quirze de Besora",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.8940587, 41.6019146 ]
+			},
+			"properties" : {
+				"stop_id" : "78606",
+				"stop_name" : "Vacarisses",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78606",
+						"stop_name" : "Vacarisses",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.86855, 41.6284 ]
+			},
+			"properties" : {
+				"stop_id" : "78605",
+				"stop_name" : "Castellbell i el Vilar - Monistrol de Montserrat",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78605",
+						"stop_name" : "Castellbell i el Vilar - Monistrol de Montserrat",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.9247664, 42.4295064 ]
+			},
+			"properties" : {
+				"stop_id" : "77309",
+				"stop_name" : "Puigcerdà",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77309",
+						"stop_name" : "Puigcerdà",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.768182, 41.395657 ]
+			},
+			"properties" : {
+				"stop_id" : "72206",
+				"stop_name" : "Lavern - Subirats",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72206",
+						"stop_name" : "Lavern - Subirats",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.916921, 41.586759 ]
+			},
+			"properties" : {
+				"stop_id" : "78607",
+				"stop_name" : "Vacarisses - Torreblanca",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78607",
+						"stop_name" : "Vacarisses - Torreblanca",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.974213, 41.568855 ]
+			},
+			"properties" : {
+				"stop_id" : "78610",
+				"stop_name" : "Sant Miquel de Gonteres - Viladecavalls",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78610",
+						"stop_name" : "Sant Miquel de Gonteres - Viladecavalls",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.271625, 41.720987 ]
+			},
+			"properties" : {
+				"stop_id" : "77103",
+				"stop_name" : "Figaró",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77103",
+						"stop_name" : "Figaró",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.902357, 41.253964 ]
+			},
+			"properties" : {
+				"stop_id" : "71703",
+				"stop_name" : "Garraf",
+				"_list" : [
+					{
+						"stop_id" : "ROD_71703",
+						"stop_name" : "Garraf",
+						"route_short_name" : "R2"
+					},
+					{
+						"stop_id" : "ROD_71703",
+						"stop_name" : "Garraf",
+						"route_short_name" : "R2S"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.957144, 41.563853 ]
+			},
+			"properties" : {
+				"stop_id" : "78609",
+				"stop_name" : "Viladecavalls",
+				"_list" : [
+					{
+						"stop_id" : "ROD_78609",
+						"stop_name" : "Viladecavalls",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.0371, 41.475178 ]
+			},
+			"properties" : {
+				"stop_id" : "72501",
+				"stop_name" : "Rubí Centre",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72501",
+						"stop_name" : "Rubí Centre",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.2693313, 41.9998797 ]
+			},
+			"properties" : {
+				"stop_id" : "77110",
+				"stop_name" : "Manlleu",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77110",
+						"stop_name" : "Manlleu",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.24893, 41.760583 ]
+			},
+			"properties" : {
+				"stop_id" : "77104",
+				"stop_name" : "Sant Martí de Centelles - Aiguafreda",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77104",
+						"stop_name" : "Sant Martí de Centelles - Aiguafreda",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.233315, 41.814938 ]
+			},
+			"properties" : {
+				"stop_id" : "77106",
+				"stop_name" : "Balenyà - Els Hostalets",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77106",
+						"stop_name" : "Balenyà - Els Hostalets",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.247519, 41.841868 ]
+			},
+			"properties" : {
+				"stop_id" : "77107",
+				"stop_name" : "Balenyà - Tona - Seva",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77107",
+						"stop_name" : "Balenyà - Tona - Seva",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.2599898, 42.0520113 ]
+			},
+			"properties" : {
+				"stop_id" : "77111",
+				"stop_name" : "Torelló",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77111",
+						"stop_name" : "Torelló",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.725036, 41.371016 ]
+			},
+			"properties" : {
+				"stop_id" : "72205",
+				"stop_name" : "La Granada",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72205",
+						"stop_name" : "La Granada",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.079731, 41.480973 ]
+			},
+			"properties" : {
+				"stop_id" : "72502",
+				"stop_name" : "Sant Cugat Coll Favà",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72502",
+						"stop_name" : "Sant Cugat Coll Favà",
+						"route_short_name" : "R8"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.71627, 41.630216 ]
+			},
+			"properties" : {
+				"stop_id" : "79608",
+				"stop_name" : "Santa Susanna",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79608",
+						"stop_name" : "Santa Susanna",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79608",
+						"stop_name" : "Santa Susanna",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.196161, 42.195921 ]
+			},
+			"properties" : {
+				"stop_id" : "77200",
+				"stop_name" : "Ripoll",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77200",
+						"stop_name" : "Ripoll",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.60012, 41.273025 ]
+			},
+			"properties" : {
+				"stop_id" : "72202",
+				"stop_name" : "L'Arboç",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72202",
+						"stop_name" : "L'Arboç",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.295206, 41.629722 ]
+			},
+			"properties" : {
+				"stop_id" : "77100",
+				"stop_name" : "Les Franqueses del Vallès",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77100",
+						"stop_name" : "Les Franqueses del Vallès",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.659853, 41.314752 ]
+			},
+			"properties" : {
+				"stop_id" : "72203",
+				"stop_name" : "Els Monjos",
+				"_list" : [
+					{
+						"stop_id" : "ROD_72203",
+						"stop_name" : "Els Monjos",
+						"route_short_name" : "R4"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.222478, 41.799375 ]
+			},
+			"properties" : {
+				"stop_id" : "77105",
+				"stop_name" : "Centelles",
+				"_list" : [
+					{
+						"stop_id" : "ROD_77105",
+						"stop_name" : "Centelles",
+						"route_short_name" : "R3"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 2.719304, 41.707242 ]
+			},
+			"properties" : {
+				"stop_id" : "79607",
+				"stop_name" : "Tordera",
+				"_list" : [
+					{
+						"stop_id" : "ROD_79607",
+						"stop_name" : "Tordera",
+						"route_short_name" : "RG1"
+					},
+					{
+						"stop_id" : "ROD_79607",
+						"stop_name" : "Tordera",
+						"route_short_name" : "R1"
+					}
+				],
+				"total_punts" : 3,
+				"nivell_criticitat" : "No critic"
+			}
+		}
+	]
+}

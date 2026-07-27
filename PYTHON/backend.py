@@ -7,8 +7,12 @@ from ftfy import fix_text
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="../HTML", static_url_path="")
 CORS(app)
+
+@app.route("/")
+def index():
+    return app.send_static_file("index.html")
 
 API_URL = "https://t-mobilitat.atm.cat/opendata/alerts/json/user/token/open"
 

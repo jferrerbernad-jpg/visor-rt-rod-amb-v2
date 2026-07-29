@@ -293,7 +293,7 @@ map.addControl(
    Iniciem la petició a l'API mentre el mapa carrega en paral·lel,
    així quan map.on('load') s'executa les dades ja estan disponibles.
    ============================================================ */
-let _prefetchPromise = fetch(`${API_BASE}/api/alerts`)
+let _prefetchPromise = fetch(`/api/alerts`)
   .then(r => r.json())
   .catch(() => null);
 
